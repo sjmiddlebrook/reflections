@@ -14,3 +14,55 @@ files that the working directory has. The repository has what has been
 saved already and files in the staging area may not be in the repository 
 yet. The staging area is useful because you can see what you are going 
 to commit before actually doing anything.
+
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+You can use git diff --staged to see what changes are in the staging 
+area compared to the most recent commit. Doing this will insure that you 
+are just making one logical change for the commit you are about to make.
+
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+Creating different branches for different versions of a file that expirement 
+with different features would be useful. Then when a feature that I'm 
+expirementing with needs to be added I can use that branch. Also, using 
+different branches for different user groups would be helpful if you want 
+people using different versions of a game.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help to trace the history of each branch. Also, they make it 
+easy to identify which files are reachable from the branch you are in.
+
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+Merging two branches creates a single branch that combines the different 
+changes that were made in each branch. This new merged branch can look back 
+along the two separate branches to see what commits were made. In the 
+diagram the merge is shown as combining the two nodes because that is what 
+is being merged to create a single node in the diagram.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+The pros of automatically merging is that it is quick and easy. The con 
+of automatically merging is that you may get a merged file that doesn't 
+have quite what you were expecting. For manually merging it is the opposite. 
+You will merge exactly what you want but it may be slower and harder to do.
+
+
+
+
+
+
+
+
+
