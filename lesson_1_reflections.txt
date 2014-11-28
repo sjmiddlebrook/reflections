@@ -1,0 +1,64 @@
+Lesson 1 Reflections
+
+How did viewing a diff between two versions of a file help you see 
+the bug that was introduced?
+
+I learned how to use diff from the command line to highlight changes to a 
+document. This helps spot bugs because you can narrow down to what has 
+changes and where errors may stem from. Instead of reading through an entire 
+document scanning each line, you can focus on what is different. 
+
+
+How could having easy access to the entire history of a file make 
+you a more efficient programmer in the long term?
+
+If there is a bug that is introduced you can compare it to the 
+previous working version to see where the bug might arise from.
+
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google docs does?
+
+The pros are that you can decide when a significant change has been made and 
+commit then. Manual commits avoid commits being either too small or too big 
+if you are committing at appropriate times. Also, manual commits avoid having 
+so many versions that you can't keep track of what has changed. One con is 
+if you forget to commit then you would lose your changes.
+
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+
+Since the files are related then it makes sense to save them all together. 
+Other systems may be directed toward single files and therefore treat 
+each file separately.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the history of versions and you can read the messages that 
+explain the changes. Then to find out what has changed between two versions 
+you can look at git diff which will show you the insertions and deletions.
+
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+Knowing that you can access older versions that are bug free allows you 
+to make changes risk free. Adding something that might break your code is 
+not a problem since you can checkout an earlier commit that is bug free and 
+start again from there.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for saving the android apps that I am working on.
+
+
+
+
+
+
+
