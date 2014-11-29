@@ -1,0 +1,24 @@
+Lesson 3 Reflections
+
+When would you want to use a remote repository rather than keeping all 
+your work local?
+
+A remote repository could be helpful when you want to share your work 
+with others and collaborate on a project.
+
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+Pulling changes manually allows you to have just the versions that you 
+need to work on. If Git automatically pulled changes for you then you may 
+be unaware of what has changed in the most recent commit or be working 
+on a version that you didn't intend to.
+
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+I would use forks when I want to build off somebody else's code. Clones are for 
+making a copy of a repository either locally or remotely. Branches are when 
+you want to add new features or fix bugs in an existing file.
